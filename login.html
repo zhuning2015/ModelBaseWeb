@@ -5,6 +5,25 @@
     <title>登陆</title>
     <link rel="stylesheet" type="text/css" href="models.css"/>
   </head>
+
   <body>
+    <div id="login_frame">
+      <p>
+        <span class="label_title">欢迎使用XX仿真模型库</span>
+      </p>
+      <form action="processlogin.php" method="post">
+        <p>
+          <label class="label_input">用户名</label>
+          <input type="text" name="userName" class="text_field"/>
+        </p>
+        <p>
+          <label class="label_input">密码</label>
+          <input type="password" name="password" class="text_field">
+        </p>
+        <div id="login_control">
+          <input id="btn_login" type="submit" value="登陆">
+          <a id="register" href="register.html">新用户注册</a>
+        </div>
+      </form>
   </body>
 </html>
