@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <!-    <meta http-equiv="refresh" content="1;url=main.php">->
     <title>登陆结果</title>
-    <link rel="stylesheet" type="text/css" href="models.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/models.css"/>
   </head>
   <body>
   <div id="login_result_message">
@@ -47,7 +47,7 @@
    }
        echo '<p> <span class="label_title">登陆成功</span> </p>';
        echo "欢迎".$userName."登陆模型库。1秒后将转到";
-       echo '<a href="main.html">首页</a>';
+       echo '<a href="../main.html">首页</a>';
        echo "。";
        $_SESSION['userName'] = $userName;
   ?>

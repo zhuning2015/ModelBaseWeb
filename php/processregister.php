@@ -2,7 +2,7 @@
     <head>
         <meta charset="UTF-8"/>
         <title>注册结果</title>
-        <link rel="stylesheet" type="text/css" href="models.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/models.css"/>
     </head>
 <body>
 <div id="register_result_message">
@@ -72,7 +72,7 @@
    if ($result) {
       echo '<p> <span class="label_title">注册成功</span> </p>';
       echo "欢迎".$userName."注册使用XX仿真模型库，请返回登陆页面";
-      echo '<a href="login.html">登陆</a>';
+      echo '<a href="../login.html">登陆</a>';
    }else {
       echo '<p> <span class="label_title">注册失败</span> </p>';
       echo "无法写入用户数据库，请稍后再试";
