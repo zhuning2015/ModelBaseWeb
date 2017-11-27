@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <!-    <meta http-equiv="refresh" content="1;url=main.php">->
     <title>登陆结果</title>
-    <link rel="stylesheet" type="text/css" href="../css/models.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/login_result.css"/>
   </head>
   <body>
   <div id="login_result_message">
