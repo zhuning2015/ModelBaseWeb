@@ -1,0 +1,93 @@
+body{
+    background-image:url("../images/login/background.jpeg");
+    background-size:100%;
+    background-repeat:no-repeat;
+    text-align:center;
+}
+
+form p > *{
+    display:inline-block;
+    vertical-align: middle;
+}
+
+#register_frame{
+    width: 400px;
+    height: 290px;
+
+    padding: 13px;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -145px;
+
+    background-color: rgba(240, 255, 255, 0.5);
+
+    border-radius: 10px;
+}
+
+#register_control{
+    padding:0 28px;
+}
+
+#btn_register{
+    font-size: 14px;
+    font-family: 宋体;
+    width: 120px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: white;
+    background-color: #3BD8FF;
+    border-radius: 6px;
+    border: 0;
+}
+
+.label_title{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.label_input{
+    font-size: 14px;
+    font-family: 宋体;
+    width:65px;
+    height:28px;
+    line-height:28px;
+    text-align: center;
+    color:white;
+    background-color:#3CD8FF;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius:5px;
+}
+
+.text_field{
+    width: 278px;
+    height: 28px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 0;
+}
+
+.input_combo{
+    width: 278px;
+    height: 28px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 0;
+}
+
+#link_to_login{
+    font-size: 15px;
+    color: #3BD8FF;
+    text-decoration: none;
+    position: relative;
+    float: right;
+    top: 5px;
+}
+
+#link_to_login:hover{
+    color: blue;
+    text-decoration: underline;
+}
